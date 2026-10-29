@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FN Sondagens, Fundações e Obras Especiais</title>
+<meta name="description" content="Engenharia geotécnica e obras especiais em todo o Brasil: sondagens, ensaios, tratamento de solo, fundações, instrumentação e infraestrutura para pontes e portos. Sede em Belém (PA).">
+<meta property="og:title" content="FN Sondagens, Fundações e Obras Especiais">
+<meta property="og:description" content="Soluções em obras especiais e geotecnia, da concepção à execução, em qualquer terreno do país.">
+<meta property="og:image" content="img/balsa-estacas.jpg">
+<meta name="theme-color" content="#0f1011">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<header class="hd" id="hd">
+  <a class="hd-logo" href="#topo" aria-label="FN Sondagens, Fundações e Obras Especiais, início">
+    <img src="img/logo-fn.png" alt="FN Sondagens, Fundações e Obras Especiais" width="1226" height="333">
+  </a>
+  <nav class="hd-nav" id="nav" aria-label="Principal">
+    <a href="#empresa">Empresa</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#obras">Obras</a>
+    <a href="#estrutura">Estrutura</a>
+    <a href="#presenca">Presença</a>
+    <a href="#contato" class="hd-cta">Fale com a engenharia</a>
+  </nav>
+  <button class="hd-burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="topo" data-hd="dark">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="img/balsas-rio.jpg" alt="">
+    <svg class="hero-topo" id="topoLines" preserveAspectRatio="none"></svg>
+  </div>
+  <div class="hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>Sondagens · Fundações · Obras especiais</p>
+      <h1 class="hero-title">
+        <span class="ln"><span>Soluções em obras</span></span>
+        <span class="ln"><span>especiais e <em>geotecnia</em></span></span>
+      </h1>
+      <p class="hero-lead">Reforço de fundações, contenções, tratamento de solo, sondagens, provas de carga e instrumentação. Da concepção à execução, em qualquer terreno do país: rios, mares, florestas e áreas alagadas.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-red" href="#contato">Solicitar proposta técnica</a>
+        <a class="btn btn-ghost" href="#servicos">Conhecer os serviços</a>
+      </div>
+      <ul class="hero-tags">
+        <li>Sede em Belém (PA)</li><li>7 unidades no Brasil</li><li>Selo GeoSelos</li>
+      </ul>
+    </div>
+
+    <figure class="log" id="log" aria-label="Perfil de sondagem ilustrativo">
+      <figcaption class="log-hd">
+        <span>Perfil de sondagem</span>
+        <span class="mono">SP-01 · ilustrativo</span>
+      </figcaption>
+      <div class="log-body">
+        <div class="log-ruler" id="logRuler"></div>
+        <div class="log-col" id="logCol">
+          <div class="log-rod" id="logRod"><i></i></div>
+        </div>
+        <svg class="log-spt" id="logSpt" viewBox="0 0 100 300" preserveAspectRatio="none">
+          <g class="grid"><line x1="25" y1="0" x2="25" y2="300"/><line x1="50" y1="0" x2="50" y2="300"/><line x1="75" y1="0" x2="75" y2="300"/></g>
+          <polyline id="sptLine" points=""/>
+        </svg>
+        <ol class="log-names" id="logNames"></ol>
+      </div>
+      <div class="log-ft">
+        <div><span class="mono">Profundidade</span><b id="logDepth">0,00</b><small>m</small></div>
+        <div><span class="mono">N<sub>SPT</sub></span><b id="logN">0</b><small>golpes</small></div>
+        <div class="log-status mono" id="logStatus">Avançando</div>
+      </div>
+    </figure>
+  </div>
+  <a class="hero-scroll mono" href="#empresa">Role para descer <i></i></a>
+</section>
+
+<!-- NÚMEROS -->
+<section class="stats" data-hd="dark" aria-label="Números">
+  <div class="stats-in">
+    <div class="stat"><b data-count="600" data-prefix="+">+600</b><span>obras sob a liderança técnica do sócio-diretor</span></div>
+    <div class="stat"><b data-count="7">7</b><span>unidades: PA, AM, MA, BA, MG, ES e SP</span></div>
+    <div class="stat"><b data-count="6">6</b><span>frentes técnicas, do ensaio de campo à obra especial</span></div>
+    <div class="stat"><b>100%</b><span>do território nacional como área de atuação</span></div>
+  </div>
+</section>
+
+<!-- EMPRESA -->
+<section class="about" id="empresa" data-hd="light">
+  <div class="wrap">
+    <p class="kicker mono">01 · A empresa</p>
+    <h2 class="about-quote reveal">Atuamos onde o acesso é difícil: <span>rios, mares, florestas</span> e áreas alagadas.</h2>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>A FN Sondagens, Fundações e Obras Especiais é uma empresa de engenharia com foco no desenvolvimento de soluções de logística para obras complexas, envolvendo planejamento, estudo e execução de projetos, com ênfase na gestão e na execução de obras especiais em fundações e em serviços geotécnicos.</p>
+        <p>Acumulamos vasta experiência em concreto armado, obras off shore, linhas de transmissão, minerodutos, empreendimentos imobiliários, plataformas industriais, pontes e portos. A precisão dos nossos estudos de logística, com escolha do traçado, supressão vegetal e acessos especiais, é o que viabiliza obras de infraestrutura nas regiões mais desafiadoras.</p>
+        <ul class="pillars">
+          <li><b>Concepção</b><span>estudo de logística e de solução</span></li>
+          <li><b>Planejamento</b><span>traçado, acessos e mobilização</span></li>
+          <li><b>Execução</b><span>equipe e equipamentos próprios</span></li>
+        </ul>
+      </div>
+      <div class="about-media">
+        <figure class="ph ph-tall reveal"><img src="img/passarela-floresta.jpg" alt="Passarela de madeira aberta na floresta para acesso a frente de obra" loading="lazy"></figure>
+        <figure class="ph ph-wide reveal"><img src="img/balsa-estacas.jpg" alt="Balsas e camisas metálicas de estacas em obra sobre rio" loading="lazy"><figcaption class="mono">Fundações sobre balsa, obra fluvial</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS : descida pelas camadas -->
+<section class="svc" id="servicos" data-hd="dark">
+  <div class="svc-head wrap">
+    <p class="kicker mono">02 · Serviços</p>
+    <h2>Seis frentes técnicas.<br>Uma descida completa pelo solo.</h2>
+    <p class="svc-lead">Do primeiro furo de sondagem à estaca cravada e instrumentada, a FN entrega todas as fases de um empreendimento geotécnico.</p>
+  </div>
+  <div class="svc-body wrap">
+    <aside class="svc-col" aria-hidden="true">
+      <div class="svc-strata" id="svcStrata">
+        <div class="st" style="--c:#6b5843"><span>01<em>Ensaios de campo</em></span></div>
+        <div class="st" style="--c:#8a4a2c"><span>02<em>Laboratório</em></span></div>
+        <div class="st" style="--c:#b0743a"><span>03<em>Tratamento de solo</em></span></div>
+        <div class="st" style="--c:#7c3a26"><span>04<em>Fundações</em></span></div>
+        <div class="st" style="--c:#5a4f47"><span>05<em>Instrumentação</em></span></div>
+        <div class="st" style="--c:#3a3836"><span>06<em>Obras especiais</em></span></div>
+        <div class="svc-bit" id="svcBit"><i></i></div>
+      </div>
+      <div class="svc-depth mono"><b id="svcDepth">0</b> m</div>
+    </aside>
+
+    <div class="svc-list">
+      <article class="sv" data-i="0">
+        <div class="sv-media"><img src="img/s-campo.jpg" alt="Equipe executando sondagem em campo com tripé" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 01</p>
+          <h3>Ensaios de campo</h3>
+          <p>Investigação geotécnica para conhecer o terreno antes de qualquer decisão de projeto.</p>
+          <ul>
+            <li>Sondagens à percussão, rotativas, mistas e a trado</li>
+            <li>Sondagens resistivas para linhas de transmissão</li>
+            <li>Ensaios de permeabilidade e de perda d’água</li>
+            <li>Coleta de amostras deformadas e indeformadas</li>
+            <li>Sondagens geoambientais especiais</li>
+            <li>Ensaios de piezocone e vane test (palheta)</li>
+          </ul>
+        </div>
+      </article>
+      <article class="sv" data-i="1">
+        <div class="sv-media"><img src="img/s-laboratorio.jpg" alt="Equipamentos de laboratório de mecânica dos solos" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 02</p>
+          <h3>Ensaios de laboratório</h3>
+          <p>Parâmetros do solo medidos com rigor para dimensionar com segurança.</p>
+          <ul>
+            <li>Caracterização: umidade, granulometria, sedimentação, limites de liquidez, plasticidade e contração, matéria orgânica e peso específico</li>
+            <li>Compactação e CBR</li>
+            <li>Cisalhamento direto e edométrico</li>
+            <li>Permeabilidade e ensaios triaxiais</li>
+            <li>Ensaios químicos</li>
+          </ul>
+        </div>
+      </article>
+      <article class="sv" data-i="2">
+        <div class="sv-media"><img src="img/jet-grouting.jpg" alt="Equipe operando equipamento de jet grouting" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 03</p>
+          <h3>Tratamento de solo</h3>
+          <p>Melhoria de solos moles e de baixa capacidade para receber a obra.</p>
+          <ul>
+            <li>Jet grouting</li>
+            <li>Injeções de consolidação</li>
+            <li>Colunas de brita</li>
+            <li>Estacas de areia</li>
+            <li>Geodrenos</li>
+          </ul>
+        </div>
+      </article>
+      <article class="sv" data-i="3">
+        <div class="sv-media"><img src="img/s-fundacoes.jpg" alt="Perfuratrizes executando fundações em canteiro" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 04</p>
+          <h3>Fundações</h3>
+          <p>Estacas pré-moldadas, metálicas, escavadas, hélice, secante e outras soluções, executadas com parque de máquinas próprio.</p>
+          <ul>
+            <li>Estacas pré-moldadas de concreto armado e centrifugadas</li>
+            <li>Estacas metálicas: trilho, perfis laminados ou soldados, tubulares e prancha</li>
+            <li>Estaca raiz em solo e rocha</li>
+            <li>Hélice contínua monitorada</li>
+            <li>Estacão e barretes com lama ou polímeros</li>
+            <li>Tubulões mecanizados, tirantes convencionais e Ischebeck</li>
+          </ul>
+        </div>
+      </article>
+      <article class="sv" data-i="4">
+        <div class="sv-media"><img src="img/prova-carga.jpg" alt="Montagem de prova de carga estática" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 05</p>
+          <h3>Instrumentação de campo</h3>
+          <p>Medir para comprovar: o desempenho da fundação e do maciço acompanhado em números.</p>
+          <ul>
+            <li>Provas de carga estática</li>
+            <li>Ensaios dinâmicos (PIT e PDA)</li>
+            <li>Medições de recalque e placas de recalque</li>
+            <li>Piezômetros e inclinômetros</li>
+            <li>Medições de vazão e poços de monitoramento</li>
+            <li>Instrumentações especiais sob consulta</li>
+          </ul>
+        </div>
+      </article>
+      <article class="sv" data-i="5">
+        <div class="sv-media"><img src="img/pier.jpg" alt="Estrutura portuária sobre estacas ao lado de navio" loading="lazy"></div>
+        <div class="sv-txt">
+          <p class="sv-n mono">Camada 06</p>
+          <h3>Obras especiais</h3>
+          <p>Infraestrutura para pontes e portos e soluções sob medida onde o convencional não chega.</p>
+          <ul>
+            <li>Reforço de fundações</li>
+            <li>Infraestrutura para portos e pontes</li>
+            <li>Mineroduto, gasoduto e linha de transmissão: desmatamento, fundações, colocação de stubs e blocos de coroamento</li>
+            <li>Blocos e bases em concreto</li>
+            <li>Poços de monitoramento de gás em aterros sanitários</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- EM CAMPO : reels -->
+<section class="field" data-hd="dark">
+  <div class="wrap field-head">
+    <p class="kicker mono">03 · Em campo agora</p>
+    <h2>O que está acontecendo nas nossas frentes de obra.</h2>
+    <a class="link mono" href="https://www.instagram.com/fnengenharia_/" target="_blank" rel="noopener">@fnengenharia_ ↗</a>
+  </div>
+  <div class="field-row">
+    <figure class="clip">
+      <video data-src="vid/estaca-raiz.mp4" poster="vid/estaca-raiz.jpg" muted loop playsinline preload="none"></video>
+      <figcaption><span class="mono">Estaca raiz</span>Execução de estaca raiz em área urbana.</figcaption>
+    </figure>
+    <figure class="clip">
+      <video data-src="vid/ek245.mp4" poster="vid/ek245.jpg" muted loop playsinline preload="none"></video>
+      <figcaption><span class="mono">Equipamento</span>Perfuratriz EK 245, executa como hélice ou estacão (Kelly).</figcaption>
+    </figure>
+    <figure class="clip clip-wide">
+      <video data-src="vid/reforco.mp4" poster="vid/reforco.jpg" muted loop playsinline preload="none"></video>
+      <figcaption><span class="mono">Reforço</span>Estacas de reforço com pé direito reduzido, Ø 400 mm, na modalidade raiz.</figcaption>
+    </figure>
+    <figure class="clip">
+      <video data-src="vid/mobilizacao.mp4" poster="vid/mobilizacao.jpg" muted loop playsinline preload="none"></video>
+      <figcaption><span class="mono">Logística</span>Missão concluída: perfuratriz de volta à sede para manutenção e nova mobilização.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- OBRAS -->
+<section class="works" id="obras" data-hd="light">
+  <div class="wrap">
+    <div class="works-head">
+      <p class="kicker mono">04 · Portfólio</p>
+      <h2>Obras entregues em todo o território nacional.</h2>
+      <p>Obras de grande complexidade do ponto de vista da engenharia, da logística e da execução. Desafios que, pelo caráter inovador das soluções, tornaram-se cases de engenharia.</p>
+    </div>
+    <div class="works-filter mono" role="tablist" aria-label="Filtrar obras">
+      <button class="on" data-f="all" role="tab" aria-selected="true">Todas</button>
+      <button data-f="portos" role="tab" aria-selected="false">Pontes e portos</button>
+      <button data-f="fundacoes" role="tab" aria-selected="false">Fundações</button>
+      <button data-f="geotecnia" role="tab" aria-selected="false">Geotecnia</button>
+      <button data-f="infra" role="tab" aria-selected="false">Infraestrutura</button>
+    </div>
+    <div class="works-grid" id="worksGrid">
+      <figure class="wk wk-a" data-c="portos"><img src="img/ponte-rio.jpg" alt="Vista aérea de obra de ponte sobre rio" loading="lazy"><figcaption><span class="mono">Pontes e portos</span>Infraestrutura para ponte sobre rio</figcaption></figure>
+      <figure class="wk" data-c="portos"><img src="img/balsas-aereo.jpg" alt="Vista aérea de balsas de apoio em obra fluvial" loading="lazy"><figcaption><span class="mono">Pontes e portos</span>Frente fluvial sobre balsas</figcaption></figure>
+      <figure class="wk" data-c="fundacoes"><img src="img/contencao-secante.jpg" alt="Contenção em estaca secante após escavação" loading="lazy"><figcaption><span class="mono">Fundações</span>Contenção em estaca secante</figcaption></figure>
+      <figure class="wk wk-t" data-c="fundacoes"><img src="img/helice-trado.jpg" alt="Perfuratriz com trado de hélice contínua em operação" loading="lazy"><figcaption><span class="mono">Fundações</span>Estaca hélice contínua</figcaption></figure>
+      <figure class="wk" data-c="fundacoes"><img src="img/helice-eolica.jpg" alt="Perfuratriz em parque eólico" loading="lazy"><figcaption><span class="mono">Fundações</span>Fundações em parque eólico</figcaption></figure>
+      <figure class="wk" data-c="infra"><img src="img/sondagem-lt.jpg" alt="Sondagem em faixa de linha de transmissão na mata" loading="lazy"><figcaption><span class="mono">Infraestrutura</span>Linha de transmissão</figcaption></figure>
+      <figure class="wk wk-a" data-c="geotecnia"><img src="img/percussao.jpg" alt="Sondagem à percussão com tripé e lona azul" loading="lazy"><figcaption><span class="mono">Geotecnia</span>Sondagem à percussão</figcaption></figure>
+      <figure class="wk" data-c="fundacoes"><img src="img/guindaste-floresta.jpg" alt="Guindaste e bate-estacas em canteiro na floresta" loading="lazy"><figcaption><span class="mono">Fundações</span>Cravação em área de mata</figcaption></figure>
+      <figure class="wk" data-c="geotecnia"><img src="img/sondagem-rotativa.jpg" alt="Sondagem rotativa em terreno aberto" loading="lazy"><figcaption><span class="mono">Geotecnia</span>Sondagem rotativa</figcaption></figure>
+      <figure class="wk" data-c="portos"><img src="img/estacas-orla.jpg" alt="Linha de estacas metálicas cravadas na orla" loading="lazy"><figcaption><span class="mono">Pontes e portos</span>Estacas metálicas na orla</figcaption></figure>
+      <figure class="wk" data-c="infra"><img src="img/concretagem.jpg" alt="Caminhões betoneira em concretagem de fundações" loading="lazy"><figcaption><span class="mono">Infraestrutura</span>Concretagem de fundações</figcaption></figure>
+      <figure class="wk" data-c="geotecnia"><img src="img/sondagem-mista.jpg" alt="Sondagem mista com equipe em talude" loading="lazy"><figcaption><span class="mono">Geotecnia</span>Sondagem mista</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- LIDERANÇA -->
+<section class="lead" data-hd="dark">
+  <div class="wrap lead-grid">
+    <figure class="lead-ph reveal"><img src="img/fernando-equipe.jpg" alt="Fernando Navarro em reunião técnica com a equipe no canteiro" loading="lazy"></figure>
+    <div class="lead-txt">
+      <p class="kicker mono">05 · Capital intelectual</p>
+      <h2>Nosso maior diferencial é quem pensa a obra.</h2>
+      <div class="person">
+        <p class="mono">Sócio-diretor</p>
+        <h3>Fernando Navarro Crespo Neto</h3>
+        <ul class="cv">
+          <li><b>2000</b><span>Engenheiro Civil pela Universidade Federal do Pará, UFPA</span></li>
+          <li><b>2004</b><span>Mestre em Engenharia Civil, ênfase em Geotecnia e Mecânica dos Solos, COPPE/UFRJ</span></li>
+          <li><b>+600</b><span>obras à frente da execução, incluindo obras especiais para grandes empreendimentos públicos e privados</span></li>
+        </ul>
+      </div>
+      <p>Com equipe e metodologia próprias, desenvolveu soluções para fundações de pontes, viadutos, linhas de transmissão, portos e plantas industriais. Nossa equipe alia experiência à melhor formação acadêmica, em diálogo permanente com especialistas e centros universitários de excelência.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ESTRUTURA -->
+<section class="infra" id="estrutura" data-hd="light">
+  <div class="wrap">
+    <p class="kicker mono">06 · Infraestrutura e gestão</p>
+    <h2 class="infra-title">Equipamentos e ferramentais especiais, mantidos em casa.</h2>
+    <div class="infra-grid">
+      <article class="card card-img card-big reveal">
+        <img src="img/frota-carreta.jpg" alt="Carreta da FN transportando equipamento" loading="lazy">
+        <div><h3>Frota e mobilização própria</h3><p>Transporte e desmobilização de máquinas pesadas para qualquer região do país, com logística planejada desde o estudo da obra.</p></div>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic" aria-hidden="true">⚙</span>
+        <h3>Oficina própria</h3>
+        <p>Manutenção e desenvolvimento de equipamentos. Projetamos e fabricamos, em alguns casos com parceiros, peças, máquinas e adaptações especiais.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic" aria-hidden="true">▲</span>
+        <h3>Parque de máquinas</h3>
+        <p>Perfuratrizes como a EK 245 (CZM, base CAT 336), que executa hélice contínua ou estacão, com maior torque e força de tração.</p>
+      </article>
+      <article class="card reveal">
+        <span class="card-ic" aria-hidden="true">◎</span>
+        <h3>Gestão por melhoria contínua</h3>
+        <p>Investimento permanente em tecnologia, equipamentos e pessoas, com cultura voltada à inovação, qualidade e segurança.</p>
+      </article>
+      <article class="card card-seal reveal">
+        <img src="img/geoselo.png" alt="Selo GeoSelos de capacitação técnica em fundações e geotecnia" width="235" height="312" loading="lazy">
+        <div><h3>Capacitação reconhecida</h3><p>Empresa membro com capacitação técnica reconhecida pelo GeoSelos em fundações e geotecnia.</p></div>
+      </article>
+      <article class="card card-qsms reveal">
+        <p class="mono">QSMS</p>
+        <h3>Qualidade, segurança, meio ambiente e saúde</h3>
+        <p>Equipes que atuam dentro das mais exigentes normas de segurança e meio ambiente, com compromisso socioambiental em cada frente.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRESENÇA -->
+<section class="map" id="presenca" data-hd="dark">
+  <div class="wrap map-grid">
+    <div class="map-txt">
+      <p class="kicker mono">07 · Presença nacional</p>
+      <h2>Sede em Belém. Equipes onde a obra estiver.</h2>
+      <p>Matriz no Pará e unidades em seis estados. Cada uma com equipe técnica capaz de mobilizar e manter máquinas em qualquer região do país.</p>
+      <ol class="units" id="units">
+        <li data-u="belem" class="on"><b>Belém</b><span>PA · Matriz</span></li>
+        <li data-u="manaus"><b>Manaus</b><span>AM</span></li>
+        <li data-u="saoluis"><b>São Luís</b><span>MA</span></li>
+        <li data-u="salvador"><b>Salvador</b><span>BA</span></li>
+        <li data-u="bh"><b>Belo Horizonte</b><span>MG</span></li>
+        <li data-u="vitoria"><b>Vitória</b><span>ES</span></li>
+        <li data-u="sp"><b>São Paulo</b><span>SP</span></li>
+      </ol>
+    </div>
+    <div class="map-fig">
+      <svg id="brMap" viewBox="0 0 400 400" role="img" aria-label="Mapa do Brasil com as sete unidades da FN"></svg>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contact" id="contato" data-hd="light">
+  <div class="wrap contact-grid">
+    <div class="contact-form">
+      <p class="kicker mono">08 · Contato</p>
+      <h2>Conte o desafio da sua obra.</h2>
+      <p>Envie os dados básicos e nossa engenharia retorna pelo WhatsApp.</p>
+      <form id="form" novalidate>
+        <div class="f2">
+          <label><span>Nome</span><input name="nome" required autocomplete="name"></label>
+          <label><span>Empresa</span><input name="empresa" autocomplete="organization"></label>
+        </div>
+        <div class="f2">
+          <label><span>Cidade / UF da obra</span><input name="local" required></label>
+          <label><span>Serviço</span>
+            <select name="servico">
+              <option>Ensaios de campo / sondagem</option>
+              <option>Ensaios de laboratório</option>
+              <option>Tratamento de solo</option>
+              <option>Fundações</option>
+              <option>Instrumentação de campo</option>
+              <option>Obras especiais</option>
+              <option>Ainda não sei, preciso de orientação</option>
+            </select>
+          </label>
+        </div>
+        <label><span>Sobre a obra</span><textarea name="msg" rows="4" placeholder="Tipo de empreendimento, prazo, acesso ao local..."></textarea></label>
+        <button class="btn btn-red" type="submit">Enviar pelo WhatsApp</button>
+        <p class="form-err" id="formErr" hidden>Preencha seu nome e a cidade da obra.</p>
+      </form>
+    </div>
+    <div class="contact-side">
+      <div class="unit-card" id="unitCard"></div>
+      <div class="sectors">
+        <h3 class="mono">Setores</h3>
+        <ul>
+          <li><span>Comercial</span><a href="mailto:comercial@fnengenharia.eng.br">comercial@fnengenharia.eng.br</a></li>
+          <li><span>Engenharia</span><a href="mailto:engenharia@fnengenharia.eng.br">engenharia@fnengenharia.eng.br</a></li>
+          <li><span>Gestão de obras</span><a href="mailto:gestao@fnengenharia.eng.br">gestao@fnengenharia.eng.br</a></li>
+          <li><span>QSMS</span><a href="mailto:qsms@fnengenharia.eng.br">qsms@fnengenharia.eng.br</a></li>
+          <li><span>Suprimentos</span><a href="mailto:suprimentos@fnengenharia.eng.br">suprimentos@fnengenharia.eng.br</a></li>
+          <li><span>Financeiro</span><a href="mailto:financeiro@fnengenharia.eng.br">financeiro@fnengenharia.eng.br</a></li>
+          <li><span>Recursos humanos</span><a href="mailto:rh@fnengenharia.eng.br">rh@fnengenharia.eng.br</a></li>
+          <li><span>Diretoria</span><a href="mailto:diretoria@fnengenharia.eng.br">diretoria@fnengenharia.eng.br</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft" data-hd="dark">
+  <div class="wrap ft-in">
+    <div class="ft-brand">
+      <img src="img/logo-fn.png" alt="FN Sondagens, Fundações e Obras Especiais" width="1226" height="333" loading="lazy">
+      <p>Empresa de engenharia com foco no desenvolvimento de soluções de logística para obras complexas, com ênfase em obras especiais, fundações e serviços geotécnicos.</p>
+    </div>
+    <div class="ft-col">
+      <h4 class="mono">Matriz</h4>
+      <p>Av. Gov. José Malcher, 168, sala 110<br>Nazaré, Belém (PA)</p>
+      <p><a href="tel:+559130397200">(91) 3039-7200</a><br><a href="mailto:contato@fnengenharia.eng.br">contato@fnengenharia.eng.br</a></p>
+    </div>
+    <div class="ft-col">
+      <h4 class="mono">Navegue</h4>
+      <p><a href="#empresa">Empresa</a><br><a href="#servicos">Serviços</a><br><a href="#obras">Obras</a><br><a href="#presenca">Unidades</a><br><a href="#contato">Contato</a></p>
+    </div>
+    <div class="ft-col">
+      <h4 class="mono">Redes</h4>
+      <p><a href="https://www.instagram.com/fnengenharia_/" target="_blank" rel="noopener">Instagram</a><br><a href="https://www.facebook.com/fnfundacoes" target="_blank" rel="noopener">Facebook</a></p>
+    </div>
+  </div>
+  <div class="wrap ft-bot mono"><span>© <span id="yr">2026</span> FN Sondagens, Fundações e Obras Especiais</span><span>Todos os direitos reservados</span></div>
+</footer>
+
+<a class="wa" id="wa" href="https://wa.me/559131178484?text=Ol%C3%A1%20FN%20Engenharia%2C%20quero%20algumas%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.6v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5 0-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 2.5 1 3 .8 3.6.8.5-.1 1.8-.7 2-1.5.2-.7.2-1.3.2-1.5-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script src="main.js?v=1"></script>
+</body>
+</html>
